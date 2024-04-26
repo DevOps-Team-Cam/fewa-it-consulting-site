@@ -16217,6 +16217,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	text-align: right; /* Align the content to the right */
   }
 
+  /* Define media query to hide the button when screen width is less than 600px */
+@media screen and (max-width: 600px) {
+	.button-left {
+	  display: none; /* Hide the button completely */
+	}
+  }
+
   
   .section-title {
     text-align: center;
