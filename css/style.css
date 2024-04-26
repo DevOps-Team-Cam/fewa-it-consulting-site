@@ -16213,6 +16213,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
   
   .button-right {
+	padding-top: 5px;
 	text-align: right; /* Align the content to the right */
   }
 
